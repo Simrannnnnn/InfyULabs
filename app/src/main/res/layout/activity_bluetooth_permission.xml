@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background_image"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="474dp"
+        android:layout_height="match_parent"
+        tools:context=".Bluetooth_permission"
+        tools:layout_editor_absoluteX="1dp">
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo" />
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ellipse15" />
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ellipse14" />
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ellipse13" />
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ellipse12" />
+
+
+
+    <TextView
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:text="Turn on the Bluetooth connection of the device. "
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="573dp" />

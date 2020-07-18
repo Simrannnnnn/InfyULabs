@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:src="@drawable/background_image"
+    android:orientation="vertical"
+    android:background=""
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="299dp"
+
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:text="Welcome Back!"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <EditText
+
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_edit_text"
+        android:gravity="left|center_horizontal"
+
+
+        android:hint="Enter User Name" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_edit_text"
+        android:gravity="left|center_horizontal"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:layout_width="105dp"
+        android:layout_height="38dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_button"
+        android:text="Login"
+        android:textColor="#656565" />
+
+    <TextView
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password ?"
+        android:textColor="#FFFFFF"
+        android:textSize="18px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+</LinearLayout>
