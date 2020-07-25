@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Bluetooth_permission"></activity>
+        <activity android:name=".activity_navigation"></activity>
+        <activity android:name=".graph_1" />
+        <activity android:name=".Bluetooth_permission" />
         <activity android:name=".MainActivity" />
         <activity android:name=".Splashscreen">
             <intent-filter>
